@@ -1,0 +1,805 @@
+ /* ---------------------------------- XS ----------------------------------- */
+@media(max-width: 639px) {
+    body {
+        margin-top: 0px;
+    }
+    .option-box {
+        margin-top: 86px;
+        margin-left: 320px;
+        width: 25px;
+        height: 24px;
+        padding-top: 3px;
+        padding-left: 3px;
+        background-color: #222;
+    }
+    .option-box .color-option {
+        height: 78px;
+        width: 25px;
+        margin-top: -1px;
+        margin-left: -3px;
+    }
+    .option-box .color-option ul li {
+        width: 15px;
+        height: 15px;
+        margin-left: 4px;
+        margin-top: 3px;
+    }
+    /* Start navbar */
+    .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+        padding: 10px;
+    }
+    .navbar {
+        min-height: 50px;
+    }
+    .navbar-fixed-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse {
+        max-height: 540px;
+    }
+    .container > .navbar-header,.container-fluid > .navbar-header,.container > .navbar-collapse,.container-fluid > .navbar-collapse {
+        padding: 8px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 10px;
+    }
+    .navbar-inverse .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-toggle {
+        margin-top: 10px;
+    }
+    /* End navbar */
+    /* Start section about */
+    .about {
+        padding-bottom: 10px
+}
+    .about h1 {
+        font-size: 25px;
+        font-weight: normal;
+        line-height: 1.5em;
+    }
+    .about p {
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 1.5em;
+    }
+    /* End section about */
+    /* Start section features */
+    .features {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .features .feet p {
+        padding-bottom: 25px;
+    }
+    /*End section features */
+    /*start section testimonials*/
+    .testimonials {
+        padding-top: 30px;
+    }
+    .testimonials h1 {
+        font-size: 25px;
+    }
+    .testimonials p {
+        line-height: 1.2em;
+        font-size: 17px;
+    }
+    .testimonials span {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .testimonials .carousel-indicators li {
+        width: 60px;
+        height: 60px;
+    }
+    .testimonials .carousel-indicators li.active {
+        width: 70px;
+        height: 70px;
+    }
+    /* End Testimonials Section */
+    /* start table price Section */
+    .price-table {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .price-table h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .price-table .price-box {
+        padding-bottom: 1px;
+        margin: 15px;
+    }
+    .price-table .price-box h2 {
+        padding-bottom: 10px;
+    }
+    .price-table .price-box ul {
+        padding-top: 5px;
+        line-height: 2em;
+        font-size: 16px;
+    }
+    /* End table price Section */
+    /* start out team Section */
+    .our-team .team h1 {
+        padding-top: 25px;
+        font-size: 28px;
+    }
+    .our-team .person {
+        margin-bottom: 40px;
+    }
+    /* End out team Section */
+    /* Start Subscribe Section */
+    .subscribe {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .subscribe h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .subscribe p {
+        padding-top: 10px;
+        line-height: 2em;
+        font-size: 18px;
+    }
+    .subscribe form {
+        margin-top: 10px;
+    }
+    .subscribe input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .subscribe button {
+        width: 100%;
+    }
+    /* End Subscribe Section */
+    /* start Statistics Section */
+    .statistics .data {
+        padding-top: 20px;
+    }
+    .statistics h1 {
+        font-size: 30px;
+    }
+    .statistics .stats {
+        margin-bottom: 50px;
+    }
+    .statistics p {
+        font-size: 40px;
+    }
+    .statistics span {
+        font-size: 20px;
+    }
+    /* End Statistics Section */
+    /* Start Progress skills Section */
+    .skills-progress {
+        padding-top: 20px;
+    }
+    .skills-progress .progress {
+        height: 22px;
+    }
+    .skills-progress .progress-bar {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .skills-progress .space {
+        padding-bottom: 10px;
+    }
+    .skills-progress h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .skills-progress p {
+        padding-top: 5px;
+    }
+    /* End Progress skills Section */
+    /* Start contact-us Section */
+    .contact-us {
+        min-height: 480px;
+    }
+    .contact-us i {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .contact-us .fields h1 {
+        font-size: 26px;
+    }
+    .contact-us p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .contact-us .fields {
+        padding-top: 20px;
+        min-height: 480px;
+    }
+    .contact-us input {
+        height: 30px;
+        font-size: 14px;
+    }
+    .contact-us textarea {
+        height: 60px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .contact-us button {
+        height: 35px;
+        line-height: 11px;
+        font-size: 16px;
+    }
+    /* End contact-us Section */
+    /* Start our clients Section */
+    .our-clients {
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+    .our-clients img {
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    /* End our clients Section */
+    /* Start footer Section */
+    .footer h3 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .footer .three-coloumns {
+        overflow: hidden;
+    }
+    .footer .three-coloumns li {
+        margin-bottom: 0px;
+    }
+    .footer .social-bookmarks {
+        overflow: hidden;
+    }
+    .footer .social-bookmarks img {
+        height: 80%;
+        width: 80%;
+    }
+    .footer .copyright {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+}
+/* End footer Section */
+@media(min-width: 400px) and (max-width: 450px) {
+    .option-box{
+        margin-top: 85px;
+        margin-left: 365px;
+    }
+}
+/* ---------------------------------- XS 2------------------------------------------------- */
+@media(min-width: 640px) and (max-width: 767px) {
+    body {
+        margin-top: 0px;
+    }
+    .option-box .color-option {
+        height: 78px;
+        width: 26px;
+        margin-top: -1px;
+        margin-left: -3px;
+    }
+    .option-box {
+        margin-top: 79px;
+        margin-left: 6px;
+        width: 25px;
+        height: 24px;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+    .option-box .color-option ul li {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+    /* Start navbar */
+    .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+        padding: 15px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 15px;
+    }
+    /* End navbar */
+    /* Start about */
+    .about {
+        padding-bottom: 30px;
+    }
+    .about h1 {
+        color: #000000;
+    }
+    /* End about */
+    /* Start Features */
+    .features {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .features .feet p {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    /* End Features */
+    /* Start testimonials */
+    .testimonials p {
+        line-height: 1.3em;
+        font-size: 18px;
+    }
+    /* End testimonials */
+    /* start table price */
+    .price-table h1 {
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+    .price-table .price-box h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .price-table .price-box p {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .price-table .price-box ul {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .price-table .price-box li {
+        float: left;
+        width: 33.3333%;
+    }
+    .price-table .price-box a {
+        padding: 10px;
+        width: 80%;
+        font-size: 20px;
+        margin: 30px;
+    }
+    /* End table price */
+    /* start out team */
+    .our-team .person {
+        float: left;
+        padding-bottom: 20px;
+        width: 50%;
+    }
+    .our-team .person p {
+        font-size: 16px;
+    }
+    .our-team .person i {
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    /* End out team */
+    /* Start Subscribe Section */
+    .subscribe {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .subscribe h1 {
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        font-size: 40px;
+    }
+    .subscribe p {
+        font-size: 22px;
+        line-height: 2em;
+        font-weight: bold;
+    }
+    .subscribe input {
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .subscribe button {
+        margin-top: 10px;
+        width: 60%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* End Subscribe Section */
+    /* start Statistics Section */
+    .statistics .data {
+        padding-bottom: 50px;
+    }
+    .statistics .data h1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+        color: #DDD;
+    }
+    .statistics .stats {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+        color: #DDD;
+    }
+    .statistics p {
+        font-size: 30px;
+    }
+    .statistics span {
+        font-size: 20px;
+    }
+    /* End Statistics Section */
+    /* Start Progress skills Section */
+    .skills-progress {
+        padding-top: 40px;
+        background: #EEE;
+        padding-bottom: 60px;
+    }
+    .skills-progress h1 {
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .skills-progress .space h1 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .skills-progress .progress-bar {
+        font-size: 18px;
+    }
+    .skills-progress p {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* End Progress skills Section */
+    /* Start contact-us Section */
+    .contact-us button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* End contact-us Section */
+    /* Start our clients Section */
+    .our-clients {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .our-clients img {
+        margin-bottom: 20px;
+    }
+    /* End our clients Section */
+    /* Start footer Section */
+    .footer .social-bookmarks li {
+        margin-right: 39px;
+        padding-bottom: 20px;
+    }
+    .footer .img-thumbnail {
+        width: 20%;
+    }
+    .footer .copyright {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    /* End footer Section */
+}
+/* ---------------------------------- SM -------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin-top: 70px;
+    }
+    .option-box .color-option {
+        height: 78px;
+        width: 26px;
+        margin-top: -1px;
+        margin-left: -3px;
+        border: solid 1px;
+    }
+    .option-box {
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 25px;
+        height: 24px;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+    .option-box .color-option ul li {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+    .carousel-caption {
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        bottom: 55px;
+        top: 28px;
+    }
+    .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    /* Start Slider */
+    .carousel-caption h2 {
+        padding-bottom: 0px;
+        letter-spacing: 2px;
+    }
+    .carousel-caption .lead {
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+        line-height: 1.1em;
+    }
+    .carousel-indicators li {
+        padding-bottom: 5px;
+    }
+    /* End Slider */
+    /* Start about */
+    .about {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .about h1 {
+        color: #000000;
+    }
+    /* End about */
+    /* Start Features */
+    .features {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .features .feet p {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    /* End Features */
+    /* Start testimonials */
+    .testimonials p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* End testimonials */
+    /* start table price */
+    .price-table h1 {
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+    .price-table .price-box h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .price-table .price-box p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .price-table .price-box p {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .price-table .price-box ul {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .price-table .price-box a {
+        padding: 10px;
+        width: 80%;
+        font-size: 20px;
+        margin: 30px;
+    }
+    /* End table price */
+    /* start out team */
+    .our-team .person {
+        padding-bottom: 30px;
+    }
+    /* End out team */
+    /* Start Subscribe Section */
+    .subscribe {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .subscribe h1 {
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        font-size: 40px;
+    }
+    .subscribe p {
+        font-size: 22px;
+        line-height: 2em;
+        font-weight: bold;
+    }
+    .subscribe .form-inline .form-control {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .subscribe button {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* start Statistics Section */
+    .statistics .data {
+        padding-bottom: 50px;
+    }
+    .statistics .data h1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+        color: #DDD;
+    }
+    .statistics .stats {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+        color: #DDD;
+    }
+    .statistics p {
+        font-size: 30px;
+    }
+    .statistics span {
+        font-size: 20px;
+    }
+    /* End Statistics Section */
+    /* Start Progress skills Section */
+    .skills-progress {
+        padding-top: 40px;
+        background: #EEE;
+        padding-bottom: 60px;
+    }
+    .skills-progress h1 {
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .skills-progress .space h1 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .skills-progress .progress-bar {
+        font-size: 18px;
+    }
+    .skills-progress p {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* End Progress skills Section */
+    /* Start contact-us Section */
+    .contact-us button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* End contact-us Section */
+    /* Start our clients Section */
+    .our-clients {
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .our-clients img {
+        margin-bottom: 20px;
+    }
+    /* End our clients Section */
+}
+/* ---------------------------------- MD -------------------------------------------------- */
+@media(min-width: 992px) and (max-width: 1199px) {
+    body {
+        margin-top: 70px;
+    }
+    .carousel-caption {
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        bottom: 55px;
+        top: 28px;
+    }
+    .carousel-caption .lead {
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    /* Start about */
+    .about {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .about h1 {
+        color: #000000;
+    }
+    /* End about */
+    /* Start Features */
+    .features {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .features h1 {
+        font-size: 50px;
+    }
+    .features h2 {
+        font-size: 35px;
+    }
+    .features .feet p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    /* End Features */
+    /* Start testimonials */
+    .testimonials h1 {
+        font-size: 45px;
+    }
+    .testimonials p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    /* End testimonials */
+    /* Start Subscribe Section */
+    .subscribe {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .subscribe h1 {
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        font-size: 40px;
+    }
+    .subscribe p {
+        font-size: 22px;
+        line-height: 2em;
+        font-weight: bold;
+    }
+    .subscribe .form-inline .form-control {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .subscribe button {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* End Subscribe Section */
+    /* Start Progress skills Section */
+    .skills-progress {
+        padding-top: 40px;
+        background: #EEE;
+        padding-bottom: 60px;
+    }
+    .skills-progress h1 {
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .skills-progress .space h1 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .skills-progress .progress-bar {
+        font-size: 18px;
+    }
+    .skills-progress p {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* End Progress skills Section */
+    /* Start contact-us Section */
+    .contact-us {
+        min-height: 520px;
+    }
+    .contact-us .fields {
+        min-height: 520px;
+    }
+    /* End contact-us Section */
+    .footer .social-bookmarks li {
+        padding-right: 45px;
+        padding-bottom: 10px;
+    }
+    .footer .img-thumbnail{
+        width: 49%;
+    }
+}

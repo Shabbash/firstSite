@@ -1,0 +1,33 @@
+/* Start Overriding bootsrtarp */
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu .divider,
+.carousel-indicators .active,
+.footer .copyright,.option-box,
+.option-box .color-option ul li ,
+#scroll-top {
+	background-color: #c0c0c0;
+}
+.navbar-inverse .navbar-brand .span,
+.about p,
+.testimonials span,
+.price-table .price-box p
+,.subscribe strong ,
+.statistics .stats:hover,
+.footer h3{
+	color: #c0c0c0;
+}
+.price-table .price-box:hover p {
+	border-color: #c0c0c0;
+}
+.testimonials .carousel-indicators li.active {
+	border: 3px solid #c0c0c0;
+}
+
+.dropdown-menu {
+	3px;
+	border-top: solid #c0c0c0;
+}

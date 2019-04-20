@@ -1,0 +1,176 @@
+
+/* start about us */
+
+.breadcrumb {
+    padding: 12px ;
+    margin: 0;
+    background: #EEE;
+
+}
+.breadcrumb-holder{
+
+    background: #EEE;
+}
+
+.breadcrumb-item{
+    font-size: 18px;
+}
+
+.about-us h1 {
+    padding-top: 20px;
+    letter-spacing: -3px;
+    font-size: 62px;
+        font-family: 'Lato', sans-serif;
+
+}
+.about-features{
+    padding-top: 55px;
+}
+.about-features h3{
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.about-features p{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.about-ceo{
+    padding-top: 20px;
+    background-color: #DDD;
+}
+.about-ceo h2{
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.about-ceo p{
+    padding-top: 20px;
+     font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.about-ceo a{
+    text-align: center;
+    padding-top: 10px;
+    padding-top: 10px;
+     font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: #111;
+    color: #DDD;
+    width: 80%;
+}
+
+.about-ceo .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #7c5c5c;
+}
+
+/* ................................... media query about us ........................... */
+@media(max-width: 767px) {
+    .about-ceo a{
+        margin-bottom: 15px;
+    }
+}
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    .about-ceo h2 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.about-ceo p {
+    padding-top: 14px;
+    font-size: 17px;
+    line-height: 1.2em;
+}
+}
+
+/* End about us */
+
+/* Start FAQ */
+
+.faq {
+    padding: 40px 0
+}
+
+.faq h1 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -3px;
+    font-size: 65px
+}
+
+.faq h1 ~ hr {
+    width: 70%
+}
+
+.faq-questions .panel-heading {
+    padding: 20px 15px
+}
+
+.faq-questions .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+
+.faq-questions .panel-heading a.collapsed:after {
+    content: "\e080";
+    color: #999
+}
+
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: inherit;
+}
+
+/* ................................... media query FAQ ........................... */
+@media(max-width: 767px) {
+
+    .faq {
+    padding-bottom: 0px;
+}
+
+    .faq h1 {
+    font-size: 33px;
+}
+    .panel-title {
+    font-size: 15px;
+}
+
+.faq-questions .panel-heading a:after {
+   display: none;
+}
+}
+
+    @media (min-width: 768px) and (max-width: 991px) {
+
+     .faq h1 {
+    font-size: 60px;
+}
+
+.lead {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+  .panel-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+}
+/* End FAQ */
